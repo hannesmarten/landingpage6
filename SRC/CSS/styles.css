@@ -1,0 +1,590 @@
+/*
+Farben:
+Gelb: #FBF333
+Rosa: #F8CACA
+*/
+
+
+/* Global */
+
+
+@font-face {
+  font-family: sans-serif;
+  src: url(./FONTS/MaisonNeue-Medium.ttf) format("truetype");
+}
+
+:focus {
+outline: none;
+
+}
+
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.logoo {
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+width: 90%;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+.logoo img {
+  width: 100%;
+  height: auto;
+}
+
+.logoo a:hover {
+  text-decoration: none;
+  background-color: none;
+}
+
+
+.imprint {
+margin-top: 30px;
+line-height: 1.5;
+display: block;
+}
+
+
+
+.imprint li  {
+  text-align: center;
+  display: ;
+  font-size: 2rem;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.imprint ul {
+  padding-inline-start: 0;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+
+
+
+#lauftext {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #FBF333;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: sans-serif;
+  border: none;
+  margin: 0;
+  font-size: 1rem;
+
+}
+
+
+#borderoben {
+  border: none;
+  margin: 0;
+
+}
+
+
+#zurueck-btn {
+  background-color: ;
+  width: 40%;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  font-size: .8rem;
+  padding: 4px;
+  font-weight: lighter
+}
+
+#zurueck-btn a:hover {
+  background-color: #F8CACA;;
+}
+
+/* Index */
+
+
+
+#bild {
+  background-image: url("../IMG/bild2.jpg");
+  width: 95%;
+  height: auto;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+video {
+  width: 95%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 20px;
+}
+
+
+.nav {
+margin: 0
+}
+
+.nav li  {
+  text-align: center;
+  display: block;
+  font-size: 4rem;
+  font-weight: lighter;
+  line-height:3;
+}
+
+.nav ul {
+  padding-inline-start: 0;
+  margin: 0;
+
+}
+
+.nav a {
+    background-color: #FBF333;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration:;
+  color: black;
+  background-color: #F8CACA;
+}
+
+
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.logoo a:hover {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+/* Whatwedo */
+
+#fließtext {
+  text-align: left;
+  font-size: 2rem;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#fließtext p {
+  margin: 0;
+  background-color: #FBF333;
+  width: 50%;
+}
+
+#fließtext2 p {
+  margin: 0;
+  background-color: #FBF333;
+  width: 100% ;
+}
+
+#fließtext2 {
+  text-align: right;
+  font-size: 2rem;
+  padding-left: 50%;
+  margin-top: 250px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+
+}
+
+#fließtext2 p {
+  margin: 0;
+}
+
+
+/* Workwithus */
+
+
+#collab,
+#collab2 {
+  width: 60%;
+  font-size: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.kontaktformular-style {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-style {
+  background-color: #FBF333;
+  border: solid 0.1px #FBF333;
+}
+
+.kontaktformular-style h2 {
+
+  background-color: ;
+  height: auto;
+  padding:
+  font-weight: bolder;
+  font-size: 2rem;
+
+
+}
+
+.kontaktformular-style #mailtous {
+  font-size: 1.5rem;
+  padding-left: 30px;
+}
+
+
+
+.kontaktformular input,
+.kontaktformular textarea {
+  color: black;
+  height: 20px;
+  width: 90%;
+  margin-bottom: 25px;
+  padding: .5rem;
+  font-weight: lighter;
+  font-size: 1rem;
+  border: 2px solid white;
+  font-family: sans-serif;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.kontaktformular input:nth-of-type(1) {
+  margin-top: 25px;
+}
+
+.kontaktformular textarea {
+  height: 200px;
+  margin-bottom: 25px;
+}
+
+
+.kontaktformular input:hover,
+.kontaktformular input:focus,
+.kontaktformular textarea:hover,
+.kontaktformular textarea:focus {
+  border: 2px solid #F8CACA;
+}
+
+
+.kontaktformular input::placeholder,
+.kontaktformular textarea::placeholder {
+  color: black;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+button {
+  background-color: #FBF333;
+  border: 0;
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: normal;
+  width: 100%;
+  padding: .5rem;
+  margin-top: 20px;
+
+}
+
+button:hover,
+button:focus {
+    background-color: #F8CACA;
+}
+
+
+
+ #fließtext a:hover {
+   text-decoration: none;
+ }
+
+#header-workwithus {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
+  width: 50%;
+}
+
+#header-workwithus h2 {
+  font-weight: ;
+  font-size: 2rem;
+  border-bottom: #FBF333 solid 5px;
+  padding: 5px;
+}
+
+
+
+
+/* Whowe are*/
+
+.flex {
+  display: flex;
+  width: 95%;
+  flex-direction: row-reverse;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  overflow: auto;
+}
+
+
+#vorstellung {
+  width: 50%;
+  margin-left: 5px;
+  line-height: 500px;
+  height: 500px;
+
+}
+
+
+#vorstellung p {
+  margin: 0;
+  padding: 10px;
+  font-size: 2rem;
+  line-height: 1.15;
+  vertical-align: bottom;
+  display: inline-block;
+}
+
+#vorstellung-bild {
+
+  width: 50%;
+  background-image: url("../IMG/team.jpg");
+  background-size: cover;
+  overflow: auto;
+  height: 500px;
+}
+
+#vorstellung-bild div {
+padding: 5px;
+text-align: left;
+}
+
+#vorstellung-bild p {
+  margin:0;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+
+/* Imprint-Text */
+
+.imprint-text {
+  background-color:#FBF333;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 10px;
+}
+
+.imprint-text p {
+  margin: 0;
+  padding: 0;
+}
+
+#bild3 {
+  background-image: url("../IMG/header2.jpg");
+  width: 95%;
+  height: 700px;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+
+
+/* Media-Queries*/
+
+@media (max-width: 900px) {
+
+  .flex {
+    flex-direction: column-reverse;
+    width: 95%;
+  }
+
+  #vorstellung {
+    width: 100%;
+    height: 200px;
+    line-height: 200px;
+    margin: 0;
+    vertical-align: middle;
+    overflow: auto;
+  }
+
+  #vorstellung p {
+    vertical-align: middle;
+
+  }
+
+  #vorstellung-bild {
+    width: 100%;
+    height: 500px;
+  }
+
+
+
+  @media (max-width: 1115px) {
+
+    .logo h1 {
+      font-size: 8rem;
+    }
+
+    .nav li  {
+      font-size: 3.2rem;
+    }
+
+    .imprint li  {
+      font-size: 1.8rem;
+    }
+
+  }
+
+  @media (max-width: 900px) {
+
+    .logo h1 {
+      font-size: 6rem;
+
+    }
+
+    .nav li  {
+      font-size: 2.5rem;
+    }
+
+    .imprint li  {
+      font-size: 1.2rem;
+    }
+
+  }
+
+  @media (max-width: 670px) {
+
+
+
+    #collab2, #collab {
+      width: 80%;
+    }
+
+
+    .logo h1 {
+      font-size: 4.5rem;
+
+    }
+
+    .nav li  {
+      font-size: 2rem;
+      line-height: 5.5;
+    }
+
+    .imprint li  {
+      font-size: 1rem;
+    }
+
+    .kontaktformular-style  {
+      width: 80%;
+    }
+
+
+  }
+
+  #header-workwithus {
+
+  width: 80%;
+  }
+
+  #fließtext p {
+    width: 100%;
+  }
+
+  #fließtext2 p {
+    width: 100%;
+  }
+
+  #fließtext2 {
+
+    padding: 10px;
+
+  }
+
+  .flex {
+    text-align: center;
+  }
+
+
+}
+
+  @media (max-width: 425px) {
+
+    .logo h1 {
+      font-size: 3.5rem;
+
+    }
+
+    .nav li  {
+      font-size: 2rem;
+    }
+
+    .imprint li  {
+      font-size: 1rem;
+    }
+
+    #zurueck-btn  {
+
+      width: 100%;
+      font-size: 1rem;
+
+    }
+
+  }
+
+  @media (max-width: 375px) {
+
+    .logo h1 {
+      font-size: 2.8rem;
+
+    }
+
+    .nav li  {
+      font-size: 2rem;
+    }
+
+    .imprint li  {
+      font-size: 1rem;
+    }
+
+    #zurueck-btn {
+
+      width: 20%;
+      font-size: 1rem;
+
+    }
+
+
+  }
